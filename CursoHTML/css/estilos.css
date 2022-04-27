@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;  
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+.lateral{
+    background-color: #56B3AB;
+position: fixed;
+top: 0;
+bottom: 0;
+padding: 1em;
+left: 0;
+width: 350px;
+}
+/* Perfil*/
+.perfil__circulo{
+margin: 0;
+border-radius: 50%;
+width: 50px;
+overflow: hidden;
+height: 50px;
+}
+
+.perfil__foto{ 
+width: 100%;
+
+}
+.perfil__nombres{
+    color: #fff;
+    font-size: 20px;
+    width: 250px;
+    margin-left: .5em;
+}
+.perfil__nombres,.perfil__circulo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.informacion{
+    color:#0F6A62;
+    position: absolute;
+    bottom: 1em;
+}
+.informacion__titulo{
+    font-size: 18xp;
+}
+/*Habilidades*/
+.habilidades{
+    padding: 0;
+}
+
+.habilidad{
+    background-color: #0F6A62;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    padding: .5em;
+    text-transform: uppercase;
+
+}
+.habilidad--proyecto{
+    background-color: #29597C;
+    color: #fff;
+    font-size: 12px;
+    display: inline-block;
+    padding: .5em;
+    text-transform: uppercase;
+
+}
+/*Proyectos*/
+.proyectos{
+    margin-left: 350px;
+    padding: 1em;
+
+    display: table;
+}
+.proyecto{
+    width: 50%;
+    padding: 1em;
+    display: table-cell;
+}
+
+.proyecto__imagen{
+    width: 100%;
+}
+
+.proyecto__titulo{
+    color: #29597C;
+    font-size: 18px;
+}
+
+ 
