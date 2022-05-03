@@ -6,6 +6,21 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
 
 }
+.BTN_home{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #56B3AB;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 90px;
+}
+a{
+    text-decoration: none; 
+}
+.BTN_home:hover{
+    background-color:aquamarine;
+}
+
 .lateral{
     background-color: #56B3AB;
     position: fixed;
@@ -29,28 +44,44 @@ width: 100%;
 
 }
 .perfil__nombres{
+    font-family: 'Noto Sans JP', sans-serif;
     color: #fff;
     font-size: 20px;
     width: 250px;
     margin-left: .5em;
+    background-color: #56B3AB;
 }
 .perfil__nombres,.perfil__circulo{
     display: inline-block;
     vertical-align: middle;
+    text-align: left;
 }
 .informacion{
     color:#0F6A62;
     position: absolute;
     bottom: 1em;
 }
+.informacion__descripcion{
+    color:#0F6A62;
+    text-align: left;
+}
+
 .informacion__titulo{
+    color:#0F6A62;
     font-size: 18xp;
+    text-align: left;
 }
 /*Habilidades*/
 .habilidades{
     padding: 0;
 }
 
+
+.informacion__titulo{
+    background-color: #56B3AB;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
 .habilidad{
     background-color: #0F6A62;
     color: #fff;
@@ -76,6 +107,11 @@ width: 100%;
 
     display: table;
 }
+.view-proyecto{
+    margin-left: 350px;
+    padding: 1em;
+}
+
 .proyecto{
     width: 50%;
     padding: 1em;
@@ -143,6 +179,11 @@ width: 100%;
         top: 40px;
         right: 40px;
 
+    }
+    .view-proyecto{
+        margin-left: 0;
+        margin-top: 350px;
+        padding: 1em;
     }
     .proyectos{
         margin-left: 0;
